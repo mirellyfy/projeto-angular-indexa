@@ -57,10 +57,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "indexa:build:production"
+              "browserTarget": "indexa:build:production"
             },
             "development": {
-              "buildTarget": "indexa:build:development"
+              "browserTarget": "indexa:build:development"
             }
           },
           "defaultConfiguration": "development"

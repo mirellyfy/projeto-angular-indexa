@@ -8,17 +8,16 @@ import { SeparadorComponent } from '../../componentes/separador/separador.compon
 import { ContatoService } from '../../services/contato.service';
 
 @Component({
-  selector: 'app-formulario-contato',
-  standalone: true,
-  imports: [
-    CommonModule,
-    ContainerComponent,
-    SeparadorComponent,
-    ReactiveFormsModule,
-    RouterLink
-  ],
-  templateUrl: './formulario-contato.component.html',
-  styleUrl: './formulario-contato.component.css'
+    selector: 'app-formulario-contato',
+    imports: [
+        CommonModule,
+        ContainerComponent,
+        SeparadorComponent,
+        ReactiveFormsModule,
+        RouterLink
+    ],
+    templateUrl: './formulario-contato.component.html',
+    styleUrl: './formulario-contato.component.css'
 })
 export class FormularioContatoComponent implements OnInit{
 
